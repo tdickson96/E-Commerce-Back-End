@@ -11,19 +11,20 @@ Tag.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: true
     },
+
     tag_name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+      type: DataTypes.STRING
+    }
   },
+
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'tag',
+    modelName: 'tag'
   }
 );
 
