@@ -76,6 +76,7 @@ router.put('/:id', async ({ body, body: { tag_name }, params }, res) => {
     res.status(400).json({ message: "--- Include tag name ---" });
     return;
   };
+  // regex to verify numbers
   if (!/^[0-9]+$/.test(params.id)) {
     res.status(400).json({ message: "--- ID has to be a number ---" });
     return;
@@ -106,6 +107,7 @@ router.put('/:id', async ({ body, body: { tag_name }, params }, res) => {
 
 router.delete('/:id', async ({ params }, res) => {
   // delete on tag by its `id` value
+  // ensure values are numbers with regex
   if (!/^[0-9]+$/.test(params.id)) {
     res.status(400).json({ message: "--- ID has to be a number ---" });
     return;
