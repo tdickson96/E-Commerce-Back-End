@@ -40,9 +40,9 @@ Learned to focus on the development of async functions to queue stacks. Focused 
 
 ## Usage
 
-    ```md
-    ![screenshot](assets/images/screenshot.png)
-    ```
+[Repository](https://github.com/tdickson96/E-Commerce-Back-End) 
+
+[Walkthrough](https://drive.google.com/file/d/1skrOnHoX5bagYCepzFpWMLiQ2pd9JYoA/view) 
 
 ## License
 
